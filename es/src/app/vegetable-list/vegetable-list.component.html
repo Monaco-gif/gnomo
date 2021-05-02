@@ -1,0 +1,11 @@
+<p>lista vegetali</p>
+
+<ul>
+  <li *ngFor="let veg of listaVeg">
+    nome: {{veg.nome}} <br>
+    descrizione: {{veg.descrizione}} <br>
+    prezzo: {{veg.prezzo}} <br>
+    <button (click)="Compra(veg)">Compra</button>
+  </li>
+</ul>
+
